@@ -1,6 +1,6 @@
 <!-- .slide: class="with-code inconsolata" -->
 # Comment changer le scope de notre provider
-**S'il s'agit d'une provider classique utilisant l'annotation @Injectable** <br/><br/>
+S'il s'agit d'une provider classique utilisant l'annotation **@Injectable** <br/><br/>
 
 ```typescript
 @Injectable({
@@ -14,12 +14,12 @@ export class TodoService {}
 
 <!-- .slide: class="with-code inconsolata" -->
 # Comment changer le scope de notre provider
-**S'il s'agit d'une provider custom** <br/><br/>
+S'il s'agit d'une provider custom <br/><br/>
 
 ```typescript
 {
   provide: 'LOGGER',
-  useCLass: CustomLogger,
+  useClass: CustomLogger,
   scope: Scope.TRANSIANT
 }
 ```
@@ -29,7 +29,7 @@ export class TodoService {}
 
 <!-- .slide: class="with-code inconsolata" -->
 # Comment changer le scope d'un controller
-**Le scope d'un controller est soit partagé, soit de type Request** <br/><br/>
+Le scope d'un controller est soit partagé, soit de type Request <br/><br/>
 
 ```typescript
 @Controller({ scope: Scope.Request })

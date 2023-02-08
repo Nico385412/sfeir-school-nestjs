@@ -1,6 +1,6 @@
 <!-- .slide: class="exercice" -->
 
-# 15-validation-body
+# 09-validation-body
 ## Lab
 
 Il est temps de remplacer notre pipe de validation de todo, par la validation que propose NestJs
@@ -12,8 +12,8 @@ Il est temps de remplacer notre pipe de validation de todo, par la validation qu
 
 <!-- .slide: class="exercice" -->
 
-# 15-validation-body
+# 09-validation-body
 ## Soluce
 
-**Solution : 15-validation-body-solution**
+**Solution : 09-validation-body-solution**
 <!-- .element: class="full-center" -->

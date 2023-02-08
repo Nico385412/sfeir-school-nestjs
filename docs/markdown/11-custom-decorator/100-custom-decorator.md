@@ -1,5 +1,5 @@
 <!-- .slide: class="exercice" -->
-# 12-custom-decorator
+# 14-custom-decorator
 ## Lab
 **Nous voulons à l'aide de la route GET /user/token récupérer le token de l'utilisateur à partir des cookies**<br/><br/>
 
@@ -9,7 +9,7 @@
 ##==##
 
 <!-- .slide: class="exercice" -->
-# 12-custom-decorator
+# 14-custom-decorator
 ## Soluce
-**Solution : 12-custom-decorator-solution**
+**Solution : 14-custom-decorator-solution**
 <!-- .element: class="full-center" -->

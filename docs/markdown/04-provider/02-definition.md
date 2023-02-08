@@ -1,50 +1,57 @@
-# A quoi sert le provider 
-- Concept fondamental de Nest JS <br/><br/>
-- Injecter des dépendances (classes,valeur, fonction etc) <br/><br/>
-- Créer des relations entre objets <br/><br/>
+# A quoi sert un provider
+
+-   Concept fondamental de NestJs <br/><br/>
+-   Injecter des dépendances (classes,valeur, fonction etc) <br/><br/>
+-   Créer des relations entre objets <br/><br/>
 
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
+
 # Qu'est ce qu'un provider ?
-__Un provider est une simple classe précédée de l'annotation @Injectable__ <br/><br/>
+
+Un **Provider** est une simple classe précédée de l'annotation **@Injectable** <br/><br/>
 
 ```typescript
 @Injectable()
 export class AppService {}
 ```
+
 <!-- .element: class="big-code" -->
 
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
+
 # Où s'enregistre un provider
 
-__Un provider s'enregistre toujours dans le tableau des providers d'un module__ <br/><br/>
+Un **Provider** doit être enregistré dans un tableau de providers dans un module <br/><br/>
 
 ```typescript
 @Module({
-  providers: [AppService]  
+    providers: [AppService],
 })
-export class AppModule { }
+export class AppModule {}
 ```
+
 <!-- .element: class="big-code" -->
 
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
+
 # Comment utiliser un service dans un controller
 
-__Il faut l'injecter__ <br/><br/>
+Il faut l'injecter <br/><br/>
 
 ```typescript
-import { Controller } from '@nestjs/common';
-import { AppService } from './app.service';
+import { Controller } from "@nestjs/common";
+import { AppService } from "./app.service";
 
 @Controller()
 export class AppController {
     constructor(private readonly appService: AppService) {}
 }
 ```
-<!-- .element: class="big-code" -->
 
+<!-- .element: class="big-code" -->

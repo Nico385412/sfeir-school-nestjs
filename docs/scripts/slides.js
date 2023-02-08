@@ -1,6 +1,5 @@
 import { SfeirThemeInitializer } from "../web_modules/sfeir-school-theme/sfeir-school-theme.mjs";
-import { dayOneSLides } from "./day-one.js";
-import { dayTwoSlides } from "./day-two.js";
+import { dayOneSlides } from "./day-one.js";
 
 const trainingMode = document
   .querySelector(".reveal .slides")
@@ -11,12 +10,12 @@ function constructSlideFlow(slides) {
 }
 
 function sfeirInstitute() {
-  const formationSlide = [...dayOneSLides(), ...dayTwoSlides()];
+  const formationSlide = dayOneSlides();
   return constructSlideFlow(formationSlide);
 }
 
 function sfeirSchoolInitiation() {
-  return constructSlideFlow(dayOneSLides());
+  return constructSlideFlow(dayOneSlides());
 }
 
 trainingMode === "institue"

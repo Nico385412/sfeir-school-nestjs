@@ -81,13 +81,13 @@
         "tsConfigPath": "apps/05-custom-provider-solution/tsconfig.app.json"
       }
     },
-    "06-module-architecture": {
+    "05-module-architecture": {
       "type": "application",
-      "root": "apps/06-module-architecture",
+      "root": "apps/05-module-architecture",
       "entryFile": "main",
-      "sourceRoot": "apps/06-module-architecture/src",
+      "sourceRoot": "apps/05-module-architecture/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/06-module-architecture/tsconfig.app.json"
+        "tsConfigPath": "apps/05-module-architecture/tsconfig.app.json"
       }
     },
     "06-module-architecture-solution": {
@@ -117,94 +117,94 @@
         "tsConfigPath": "apps/07-middleware-solution/tsconfig.app.json"
       }
     },
-    "08-exception-using": {
+    "07-exception-using": {
       "type": "application",
-      "root": "apps/08-exception-using",
+      "root": "apps/07-exception-using",
       "entryFile": "main",
-      "sourceRoot": "apps/08-exception-using/src",
+      "sourceRoot": "apps/07-exception-using/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/08-exception-using/tsconfig.app.json"
+        "tsConfigPath": "apps/07-exception-using/tsconfig.app.json"
       }
     },
-    "08-exception-using-solution": {
+    "07-exception-using-solution": {
       "type": "application",
-      "root": "apps/08-exception-using-solution",
+      "root": "apps/07-exception-using-solution",
       "entryFile": "main",
-      "sourceRoot": "apps/08-exception-using-solution/src",
+      "sourceRoot": "apps/07-exception-using-solution/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/08-exception-using-solution/tsconfig.app.json"
+        "tsConfigPath": "apps/07-exception-using-solution/tsconfig.app.json"
       }
     },
-    "08-exception-create": {
+    "07-exception-create": {
       "type": "application",
-      "root": "apps/08-exception-create",
+      "root": "apps/07-exception-create",
       "entryFile": "main",
-      "sourceRoot": "apps/08-exception-create/src",
+      "sourceRoot": "apps/07-exception-create/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/08-exception-create/tsconfig.app.json"
+        "tsConfigPath": "apps/07-exception-create/tsconfig.app.json"
       }
     },
-    "08-exception-create-solution": {
+    "07-exception-create-solution": {
       "type": "application",
-      "root": "apps/08-exception-create-solution",
+      "root": "apps/07-exception-create-solution",
       "entryFile": "main",
-      "sourceRoot": "apps/08-exception-create-solution/src",
+      "sourceRoot": "apps/07-exception-create-solution/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/08-exception-create-solution/tsconfig.app.json"
+        "tsConfigPath": "apps/07-exception-create-solution/tsconfig.app.json"
       }
     },
-    "08-exception-catching": {
+    "07-exception-catching": {
       "type": "application",
-      "root": "apps/08-exception-catching",
+      "root": "apps/07-exception-catching",
       "entryFile": "main",
-      "sourceRoot": "apps/08-exception-catching/src",
+      "sourceRoot": "apps/07-exception-catching/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/08-exception-catching/tsconfig.app.json"
+        "tsConfigPath": "apps/07-exception-catching/tsconfig.app.json"
       }
     },
-    "08-exception-catching-solution": {
+    "07-exception-catching-solution": {
       "type": "application",
-      "root": "apps/08-exception-catching-solution",
+      "root": "apps/07-exception-catching-solution",
       "entryFile": "main",
-      "sourceRoot": "apps/08-exception-catching-solution/src",
+      "sourceRoot": "apps/07-exception-catching-solution/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/08-exception-catching-solution/tsconfig.app.json"
+        "tsConfigPath": "apps/07-exception-catching-solution/tsconfig.app.json"
       }
     },
-    "09-pipe-using": {
+    "08-pipe-using": {
       "type": "application",
-      "root": "apps/09-pipe-using",
+      "root": "apps/08-pipe-using",
       "entryFile": "main",
-      "sourceRoot": "apps/09-pipe-using/src",
+      "sourceRoot": "apps/08-pipe-using/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/09-pipe-using/tsconfig.app.json"
+        "tsConfigPath": "apps/08-pipe-using/tsconfig.app.json"
       }
     },
-    "09-pipe-using-solution": {
+    "08-pipe-using-solution": {
       "type": "application",
-      "root": "apps/09-pipe-using-solution",
+      "root": "apps/08-pipe-using-solution",
       "entryFile": "main",
-      "sourceRoot": "apps/09-pipe-using-solution/src",
+      "sourceRoot": "apps/08-pipe-using-solution/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/09-pipe-using-solution/tsconfig.app.json"
+        "tsConfigPath": "apps/08-pipe-using-solution/tsconfig.app.json"
       }
     },
-    "09-pipe-creation": {
+    "08-pipe-creation": {
       "type": "application",
-      "root": "apps/09-pipe-creation",
+      "root": "apps/08-pipe-creation",
       "entryFile": "main",
-      "sourceRoot": "apps/09-pipe-creation/src",
+      "sourceRoot": "apps/08-pipe-creation/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/09-pipe-creation/tsconfig.app.json"
+        "tsConfigPath": "apps/08-pipe-creation/tsconfig.app.json"
       }
     },
-    "09-pipe-creation-solution": {
+    "08-pipe-creation-solution": {
       "type": "application",
-      "root": "apps/09-pipe-creation-solution",
+      "root": "apps/08-pipe-creation-solution",
       "entryFile": "main",
-      "sourceRoot": "apps/09-pipe-creation-solution/src",
+      "sourceRoot": "apps/08-pipe-creation-solution/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/09-pipe-creation-solution/tsconfig.app.json"
+        "tsConfigPath": "apps/08-pipe-creation-solution/tsconfig.app.json"
       }
     },
     "10-guards": {
@@ -279,26 +279,33 @@
         "tsConfigPath": "apps/13-injection-scope-solution/tsconfig.app.json"
       }
     },
-    "14-configuration-env-file": {
+    "06-configuration-env-file": {
       "type": "application",
-      "root": "apps/14-configuration-env-file",
+      "root": "apps/06-configuration-env-file",
       "entryFile": "main",
-      "sourceRoot": "apps/14-configuration-env-file/src",
+      "sourceRoot": "apps/06-configuration-env-file/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/14-configuration-env-file/tsconfig.app.json"
-      }
-    },
-    "14-configuration-env-file-solution": {
-      "type": "application",
-      "root": "apps/14-configuration-env-file-solution",
-      "entryFile": "main",
-      "sourceRoot": "apps/14-configuration-env-file-solution/src",
-      "compilerOptions": {
-        "tsConfigPath": "apps/14-configuration-env-file-solution/tsconfig.app.json",
+        "tsConfigPath": "apps/06-configuration-env-file/tsconfig.app.json",
         "assets": [
           {
             "include": "../environments/*.env",
-            "outDir": "dist/apps/14-configuration-env-file-solution/environments",
+            "outDir": "dist/apps/06-configuration-env-file/environments",
+            "watchAssets": true
+          }
+        ]
+      }
+    },
+    "06-configuration-env-file-solution": {
+      "type": "application",
+      "root": "apps/06-configuration-env-file-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/06-configuration-env-file-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/06-configuration-env-file-solution/tsconfig.app.json",
+        "assets": [
+          {
+            "include": "../environments/*.env",
+            "outDir": "dist/apps/06-configuration-env-file-solution/environments",
             "watchAssets": true
           }
         ]
@@ -322,65 +329,65 @@
         "tsConfigPath": "apps/14-configuration-loader-solution/tsconfig.app.json"
       }
     },
-    "14-configuration-basics-validation": {
+    "06-configuration-basics-validation": {
       "type": "application",
-      "root": "apps/14-configuration-basics-validation",
+      "root": "apps/06-configuration-basics-validation",
       "entryFile": "main",
-      "sourceRoot": "apps/14-configuration-basics-validation/src",
+      "sourceRoot": "apps/06-configuration-basics-validation/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/14-configuration-basics-validation/tsconfig.app.json",
+        "tsConfigPath": "apps/06-configuration-basics-validation/tsconfig.app.json",
         "assets": [
           {
             "include": "../environments/*.env",
-            "outDir": "dist/apps/14-configuration-basics-validation/environments",
+            "outDir": "dist/apps/06-configuration-basics-validation/environments",
             "watchAssets": true
           }
         ]
       }
     },
-    "14-configuration-basics-validation-solution": {
+    "06-configuration-basics-validation-solution": {
       "type": "application",
-      "root": "apps/14-configuration-basics-validation-solution",
+      "root": "apps/06-configuration-basics-validation-solution",
       "entryFile": "main",
-      "sourceRoot": "apps/14-configuration-basics-validation-solution/src",
+      "sourceRoot": "apps/06-configuration-basics-validation-solution/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/14-configuration-basics-validation-solution/tsconfig.app.json",
+        "tsConfigPath": "apps/06-configuration-basics-validation-solution/tsconfig.app.json",
         "assets": [
           {
             "include": "../environments/*.env",
-            "outDir": "dist/apps/14-configuration-basics-validation-solution/environments",
+            "outDir": "dist/apps/06-configuration-basics-validation-solution/environments",
             "watchAssets": true
           }
         ]
       }
     },
-    "15-validation-body": {
+    "09-validation-body": {
       "type": "application",
-      "root": "apps/15-validation-body",
+      "root": "apps/09-validation-body",
       "entryFile": "main",
-      "sourceRoot": "apps/15-validation-body/src",
+      "sourceRoot": "apps/09-validation-body/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/15-validation-body/tsconfig.app.json",
+        "tsConfigPath": "apps/09-validation-body/tsconfig.app.json",
         "assets": [
           {
             "include": "../environments/*.env",
-            "outDir": "dist/apps/15-validation-body/environments",
+            "outDir": "dist/apps/09-validation-body/environments",
             "watchAssets": true
           }
         ]
       }
     },
-    "15-validation-body-solution": {
+    "09-validation-body-solution": {
       "type": "application",
-      "root": "apps/15-validation-body-solution",
+      "root": "apps/09-validation-body-solution",
       "entryFile": "main",
-      "sourceRoot": "apps/15-validation-body-solution/src",
+      "sourceRoot": "apps/09-validation-body-solution/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/15-validation-body-solution/tsconfig.app.json",
+        "tsConfigPath": "apps/09-validation-body-solution/tsconfig.app.json",
         "assets": [
           {
             "include": "../environments/*.env",
-            "outDir": "dist/apps/15-validation-body-solution/environments",
+            "outDir": "dist/apps/09-validation-body-solution/environments",
             "watchAssets": true
           }
         ]

@@ -1,12 +1,12 @@
 # Qu'est ce qu'un Guards
 - Une sorte de **Vigile** de route <br/><br/>
-- Une classe précédée par annotation @Injectable implémentant l'interface CanActivate
+- Une classe précédée par annotation **@Injectable** implémentant l'interface **CanActivate**
 
 ##==##
 
 # Comment ça fonctionne ? 
 - Permet de retourner :
-    - **boolean**<br/><br/>
+    - **Boolean**<br/><br/>
     - **Promise<boolean>**<br/><br/>
     - **Observable<boolean>** <br/><br/>
     

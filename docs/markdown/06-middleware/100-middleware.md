@@ -1,5 +1,5 @@
 <!-- .slide: class="exercice" -->
-# 07-middleware (part 1)
+# 13-middleware (part 1)
 ## Lab
 **Un controller user a été ajouté**<br/><br/>
 
@@ -10,7 +10,7 @@
 ##==##
 
 <!-- .slide: class="exercice"-->
-# 07-middleware (part 2)
+# 13-middleware (part 2)
 ## Lab
 
 **L'objectif de ce middleware est de setter les cookies de la réponse** <br/><br/>
@@ -20,7 +20,7 @@
 ##==##
 
 <!--.slide: class="exercice"-->
-# 07-middleware-solution
+# 13-middleware-solution
 ## Soluce
-**Solution : 07-middleware-solution** 
+**Solution : 13-middleware-solution** 
 <!-- .element: class="full-center" -->

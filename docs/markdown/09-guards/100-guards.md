@@ -1,5 +1,5 @@
 <!-- .slide: class="exercice" -->
-# 10-guards
+# 12-guards
 ## Lab
 **Notre api n'est pas sécurisée, il faudrait vérifier si l’utilisateur possède le token userToken**<br/><br/>
 
@@ -10,7 +10,7 @@
 
 ##==##
 <!-- .slide: class="exercice" -->
-# 10-guards
+# 12-guards
 ## Soluce
-**Solution : 10-guards-solution**
+**Solution : 12-guards-solution**
 <!-- .element: class="full-center" -->

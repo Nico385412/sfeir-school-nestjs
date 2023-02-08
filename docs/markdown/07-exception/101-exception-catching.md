@@ -1,5 +1,5 @@
 <!-- .slide: class="exercice"-->
-# 08-exception-catching
+# 07-exception-catching
 ## Lab
 **Ce qui serait bien c'est d'afficher en plus de l'erreur, le endpoint qui est en échec, la date  mais aussi une description plus sympathique**<br><br>
 

@@ -1,5 +1,5 @@
 <!-- .slide: class="exercice" -->
-# 09-pipe-creation
+# 08-pipe-creation
 ## Lab
 **Nous allons créer une nouvelle todo** <br/><br/>
 
@@ -16,7 +16,7 @@ Notes:
 ##==##
 
 <!-- .slide: class="exercice" -->
-# 09-pipe-creation-solution
+# 08-pipe-creation-solution
 ## Soluce
-**Solution : 09-pipe-creation-solution**
+**Solution : 08-pipe-creation-solution**
 <!-- .element: class="full-center" -->

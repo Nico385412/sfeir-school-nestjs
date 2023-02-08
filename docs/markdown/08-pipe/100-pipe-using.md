@@ -1,5 +1,5 @@
 <!--.slide: class="exercice" -->
-# 09-pipe-using
+# 08-pipe-using
 ## Lab
 **C'est un peu contraignant de devoir caster en integer l'id de la todo**<br/><br/>
 
@@ -9,8 +9,8 @@
 ##==##
 
 <!-- .slide: class="exercice" -->
-# 09-pipe-using
+# 08-pipe-using
 ## Soluce
 
-**Solution : 09-pipe-using-solution**
+**Solution : 08-pipe-using-solution**
 <!-- .element: class="full-center" -->

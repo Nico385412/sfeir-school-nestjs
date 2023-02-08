@@ -1,7 +1,7 @@
 {
   "name": "sfeirschoolnestjs",
   "version": "1.0.0",
-  "description": "Sfeir School Nest js with revealJS",
+  "description": "Sfeir School NestJs with revealJS",
   "scripts": {
     "sass": "sass ./scss/slides.scss:./css/slides.css --source-map --watch",
     "sass-once": "sass ./scss/slides.scss:./css/slides.css --source-map",
@@ -15,11 +15,12 @@
     "url": "git+https://github.com/sfeir-open-source/sfeir-school-template.git"
   },
   "keywords": [
-    "Nest JS",
+    "NestJs",
     "SFEIR"
   ],
   "authors": [
-    "Nicolas Frizzarin <frizzarin.n@sfeir.com>"
+    "Nicolas Frizzarin <frizzarin.n@sfeir.com>",
+    "Nicolas Hansse <hansse.n@sfeir.com>"
   ],
   "license": "MIT",
   "bugs": {

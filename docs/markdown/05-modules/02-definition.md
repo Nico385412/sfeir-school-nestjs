@@ -1,42 +1,48 @@
 # L'aspect modulaire est très important
-- un module par fonctionnalité (endpoint) <br/><br/>
-- un shared module <br/><br/>
-- un core module <br/><br/>
-- assure la haute scalabilité de l'architecture
+
+-   un module par fonctionnalité <br/><br/>
+-   un shared module <br/><br/>
+-   un core module <br/><br/>
+-   nécessaire à la haute scalabilité de l'architecture
 
 ##==##
 
 <!-- .slide: class="with-code inconsolata"-->
+
 # Qu'est ce qu'un module ?
 
-**Un module est une classe précédée par l'annotation @Module** <br/><br/>
+Un **Module** est une classe précédée par l'annotation **@Module** <br/><br/>
 
 ```typescript
-import { Module } from '@nestjs/common';
+import { Module } from "@nestjs/common";
 
 @Module({
-  imports: [ /* import here another module */ ],
-  controllers: [/* import here controller of your module */],
-  providers: [/* import here providers of your module */],
-  exports: [/* export what must export your module */]  
+    imports: [/* import here another module */],
+    controllers: [/* import here controllers of your module */],
+    providers: [/* import here providers of your module */],
+    exports: [/* export what must export your module */],
 })
-export class AppModule { }
+export class AppModule {}
 ```
+
 <!-- .element: class="big-code" -->
 
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
+
 # Où s'importe un module ?
 
-**Un module s'importe toujours dans le tableau des imports d'un autre module** <br/><br/>
+Un **Module** peut être importé dans n'importe quel autre module <br/><br/>
 
 ```typescript
-import { Module } from '@nestjs/common';
+import { Module } from "@nestjs/common";
+import { CoreModule } from "shared/core";
 
 @Module({
-  imports: [CoreModule]  
+    imports: [CoreModule],
 })
-export class AppModule { }
+export class AppModule {}
 ```
+
 <!-- .element: class="big-code" -->

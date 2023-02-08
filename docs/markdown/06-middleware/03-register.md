@@ -24,21 +24,17 @@ await app.listen(3000);
 ```typescript
 import { Module, NestModule, MiddlewareConsumer } from '@nestjs/common';
 import { CookiesMiddleWare } from './feature/user/cookieMiddleware';
+@Module({ imports: [UserModule] })
 
-@Module({
-  imports: [UserModule],
-})
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
-    consumer
-      .apply(CookiesMiddleWare)
-      .forRoutes(UserController);
+    consumer.apply(CookiesMiddleWare).forRoutes(UserController);
   }
 }
 ```
 <!-- .element: class="big-code"-->
 
 Notes: 
-- Il est possible de d'enregistrer plusieurs middleware d'un coup en les séparant pas une virgule
+- Il est possible de d'enregistrer plusieurs middleware d'un coup en les séparant par une virgule
 - Il est possible de passer plusieurs controller en les séparant pas une virgule
 - Il est possible d'exclure certaines routes en utilisant la fonction exclude

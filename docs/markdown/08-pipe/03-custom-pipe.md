@@ -14,7 +14,7 @@ export class TodoValidationPipe implements PipeTransform {
 
 ##==##
 
-# Heu les metadata ? C'est quoi ?
+# C'est quoi les metadatas ?
 Il s'agit des metadatas de la fonction de l'argument <br/><br/>
 - type : **@Body**/**@Query**/**@Param** <br/><br/>
 - metatype: Metatype de l'argument <br/><br/>
@@ -26,7 +26,7 @@ Il s'agit des metadatas de la fonction de l'argument <br/><br/>
 - paramètre <br/><br/>
 - méthode <br/><br/>
 - controller <br/><br/>
-- globale <br/><br/>
+- global <br/><br/>
 
 ##==##
 
