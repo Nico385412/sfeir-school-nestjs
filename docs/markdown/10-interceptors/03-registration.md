@@ -1,7 +1,7 @@
-# Comment on enregistre un interceptor?
+# Comment on enregistre un interceptor ?
 
 -   3 manières : <br/><br/>
-    -   Scope handler<br/><br/>
+    -   Scope de l'endpoint<br/><br/>
     -   Scope Controller<br/><br/>
     -   Scope Global<br/><br/>
 
@@ -9,7 +9,7 @@
 
 <!-- .slide: class="with-code inconsolata"-->
 
-# Dans le scope du handler
+# Dans le scope de l'endpoint
 
 ```typescript
 @UseInterceptors(TodoInterceptors)
@@ -74,7 +74,7 @@ app.useGlobalInterceptors(new TodoInterceptors());
 
 # Dans le scope global
 
-Dans un nest module : <br/><br/>
+Dans un module Nest : <br/><br/>
 
 ```typescript
 import { Module } from "@nestjs/common";

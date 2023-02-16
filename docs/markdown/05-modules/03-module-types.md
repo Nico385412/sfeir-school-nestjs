@@ -1,16 +1,15 @@
 # Il existe deux types de module
 
--   global <br/><br/>
--   dynamique <br/><br/>
+-   Global <br/><br/>
+-   Dynamique <br/><br/>
 
 ##==##
 
 # Les Modules Globaux
 
-A l'instar d'Angular les services sont injectés dans le scope du module <br/><br/>
+Avec Nest, les providers sont injectés dans le scope du module <br/><br/>
 
 -   Rendre les exports "globaux" <br/><br/>
--   Scope Global <br/><br/>
 -   Possibilité d'injecter sans obligatoirement importer le module
 
 ##==##

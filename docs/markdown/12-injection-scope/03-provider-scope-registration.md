@@ -1,6 +1,6 @@
 <!-- .slide: class="with-code inconsolata" -->
-# Comment changer le scope de notre provider
-S'il s'agit d'une provider classique utilisant l'annotation **@Injectable** <br/><br/>
+# Comment changer le scope de notre provider ?
+S'il s'agit d'un provider classique utilisant l'annotation **@Injectable** <br/><br/>
 
 ```typescript
 @Injectable({
@@ -13,8 +13,8 @@ export class TodoService {}
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
-# Comment changer le scope de notre provider
-S'il s'agit d'une provider custom <br/><br/>
+# Comment changer le scope de notre provider ?
+S'il s'agit d'un provider custom <br/><br/>
 
 ```typescript
 {
@@ -28,8 +28,8 @@ S'il s'agit d'une provider custom <br/><br/>
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
-# Comment changer le scope d'un controller
-Le scope d'un controller est soit partagé, soit de type Request <br/><br/>
+# Comment changer le scope d'un controller ?
+Le scope d'un controller est soit Default, soit Request <br/><br/>
 
 ```typescript
 @Controller({ scope: Scope.Request })

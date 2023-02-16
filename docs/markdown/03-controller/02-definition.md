@@ -1,4 +1,4 @@
-# A quoi sert un controller
+# A quoi sert un controller ?
 
 -   Assure la responsabilité de catcher la request
 -   Assure la responsabilité d'envoyer la réponse
@@ -24,17 +24,17 @@ export class StudentController {}
 
 Notes:
 
--   le controller prend en paramètre une chaîne de caractère qui définira le endpoint global pour ce controller
--   le controller peut également prendre un objet { host: string, path: string) en paramètre
+-   Le controller prend en paramètre une chaîne de caractère qui définira le endpoint global pour ce controller
+-   Le controller peut également prendre un objet { host: string, path: string) en paramètre
 -   Il est également possible de définir un wildcard en utilisant les opérateur regex
 
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
 
-# Où s'enregistre un controller
+# Où s'enregistre un controller ?
 
-Un **Controller** doit être enregistré dans un tableau de controllers d'un module<br/><br/>
+Un **Controller** doit être enregistré dans le tableau de `controllers` d'un module<br/><br/>
 
 ```typescript
 @Module({

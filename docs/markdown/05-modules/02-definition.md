@@ -1,9 +1,9 @@
 # L'aspect modulaire est très important
 
--   un module par fonctionnalité <br/><br/>
--   un shared module <br/><br/>
--   un core module <br/><br/>
--   nécessaire à la haute scalabilité de l'architecture
+-   Un module par fonctionnalité <br/><br/>
+-   Un shared module <br/><br/>
+-   Un core module <br/><br/>
+-   Nécessaire à la haute scalabilité de l'architecture
 
 ##==##
 
@@ -17,7 +17,7 @@ Un **Module** est une classe précédée par l'annotation **@Module** <br/><br/>
 import { Module } from "@nestjs/common";
 
 @Module({
-    imports: [/* import here another module */],
+    imports: [/* import here other modules */],
     controllers: [/* import here controllers of your module */],
     providers: [/* import here providers of your module */],
     exports: [/* export what must export your module */],

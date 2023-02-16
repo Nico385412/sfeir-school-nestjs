@@ -9,8 +9,8 @@ Un middleware est une fonction appelée avant le route handler et qui a accès �
 # Les différentes manières d'écrire un middleware
 
 
-- une classe implémentant l'interface **NestMiddleware** précédée de la notation **@Injectable** <br/><br/>
-- une simple fonction <br/><br/>
+- Une classe implémentant l'interface **NestMiddleware** précédée de la notation **@Injectable** <br/><br/>
+- Une simple fonction <br/><br/>
 
 ##==##
 

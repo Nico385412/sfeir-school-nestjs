@@ -1,10 +1,10 @@
 <!-- .slide: class="exercice"-->
 # 07-exception-catching
 ## Lab
-**Ce qui serait bien c'est d'afficher en plus de l'erreur, le endpoint qui est en échec, la date  mais aussi une description plus sympathique**<br><br>
+**Ce qui serait bien c'est d'afficher en plus de l'erreur, l'endpoint qui est en échec, la date  mais aussi une description plus sympathique**<br><br>
 
 - Créez un 'exception filter' sur votre nouvelle exception 'RessourceNotFoundException' <br><br>
-- Renvoyez l'exception avec le bon statut, la date, une descritpion et le endpoint en échec<br><br>
+- Renvoyez l'exception avec le bon statut, la date, une descritpion et l'endpoint en échec<br><br>
 
 
 

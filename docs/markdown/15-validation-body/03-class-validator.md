@@ -1,8 +1,8 @@
-# Créer ses propres schéma de validation avec Class-Validator
+# Créer ses propres schémas de validation avec class-validator
 
--   package à part de NestJs <br/><br/>
--   logique de class first <br/><br/>
--   système basé sur les annotations <br/><br/>
+-   Package à part de NestJS <br/><br/>
+-   Logique de class first <br/><br/>
+-   Système basé sur les annotations <br/><br/>
 
 ##==##
 
@@ -20,7 +20,7 @@ npm install  class-validator class-transformer
 
 <!-- .slide: class="with-code inconsolata" -->
 
-# Comment écrire une DTO avec la librairie class-validator
+# Comment écrire un DTO avec la librairie class-validator ?
 
 ```typescript
 export class TodoCreationDTO {

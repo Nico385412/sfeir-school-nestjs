@@ -1,8 +1,8 @@
-# Mise en context
+# Mise en contexte
 
 -   Les applications tournent sur différents environnements <br/><br/>
--   En NodeJs on utilise les fichiers **.env** <br/><br/>
--   NestJs met à disposition un package npm pour cette problématique
+-   En NodeJS on utilise les fichiers **.env** <br/><br/>
+-   NestJS met à disposition un package npm pour cette problématique
 
 ##==##
 
@@ -37,4 +37,4 @@ export class AppModule {}
 -   Utilise dotenv <br/><br/>
 -   Charge vos fichiers d'environnement <br/><br/>
 -   Expose un service ConfigService <br/><br/>
--   Permet une config lazyloadé
+-   Permet une config lazyloadée

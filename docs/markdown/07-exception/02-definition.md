@@ -1,4 +1,4 @@
-# Qu'est ce qu'une exception dans NestJs
+# Qu'est ce qu'une exception dans NestJS ?
 
 **Une exception est un filtre qui permet d'envoyer une réponse 'User Friendly' en cas d'erreur**
 
@@ -6,15 +6,15 @@
 
 ##==##
 
-# Les "build-in" exceptions
+# Les "built-in" exceptions
 
--   Nest catch toutes les HttpExceptions et vous offre une multitude d'exceptions à utiliser
+-   Nest catch toutes les HttpException et vous offre une multitude d'exceptions à utiliser
     -   **BadRequestException**
     -   **UnauthorizedException**
     -   **NotFoundException**
     -   **ForbiddenException**
     -   **... et bien d'autres :)** <br/><br/>
--   une exception est une simple classe qui étend la classe HttpException
+-   Une exception est une simple classe qui étend la classe HttpException
 
 ##==##
 

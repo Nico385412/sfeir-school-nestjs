@@ -1,7 +1,7 @@
-# A quoi sert un provider
+# A quoi sert un provider ?
 
--   Concept fondamental de NestJs <br/><br/>
--   Injecter des dépendances (classes,valeur, fonction etc) <br/><br/>
+-   Concept fondamental de NestJS <br/><br/>
+-   Injecter des dépendances (classes, valeurs, fonctions, etc...) <br/><br/>
 -   Créer des relations entre objets <br/><br/>
 
 ##==##
@@ -23,9 +23,9 @@ export class AppService {}
 
 <!-- .slide: class="with-code inconsolata" -->
 
-# Où s'enregistre un provider
+# Où s'enregistre un provider ?
 
-Un **Provider** doit être enregistré dans un tableau de providers dans un module <br/><br/>
+Un **Provider** doit être enregistré dans le tableau de `providers` dans un module <br/><br/>
 
 ```typescript
 @Module({
@@ -40,7 +40,7 @@ export class AppModule {}
 
 <!-- .slide: class="with-code inconsolata" -->
 
-# Comment utiliser un service dans un controller
+# Comment utiliser un service dans un controller ?
 
 Il faut l'injecter <br/><br/>
 

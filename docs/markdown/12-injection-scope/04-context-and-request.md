@@ -19,7 +19,7 @@ export class TodoService {
 
 # Comment récupérer le contexte de la requête en cours ?
 
-Pour un serveur NestJs type gateway ou microservice, ça ne fait pas se sens de récupérer l'instance de la requête mais plus de sens de récupérer le context <br/> <br/>
+Pour un serveur Nest type gateway ou microservice, ça n'a pas de sens de récupérer l'instance de la requête, mais plus de sens de récupérer le contexte <br/> <br/>
 
 ```typescript
 @Injectable({ scope: Scope.REQUEST })
@@ -36,6 +36,6 @@ export class TodoService {
 
 TodosController <-- TodosService <-- TodosRepository <br/><br/>
 
-Imaginons TodosService est de type scope Request <br/><br/>
+Imaginons que TodosService soit scopé à la Request <br/><br/>
 
 **Le Bubbling** va répercuter son scope au controller. Le scope du service TodosRepository n'est pas impacté

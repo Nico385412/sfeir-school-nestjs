@@ -1,4 +1,4 @@
-# Comment réaliser sa configuration
+# Comment réaliser sa configuration ?
 
 -   Par un fichier .env<br/><br/>
 -   Par une fonction de configuration<br/><br/>

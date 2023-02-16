@@ -1,11 +1,11 @@
-# Qu'est ce qu'un Pipe
+# Qu'est ce qu'un Pipe ?
 
-Un pipe est une classe précédé de l'annotation **@Injectable** et qui implémente l'interface **PipeTransform** <br/><br/>
+Un pipe est une classe précédée de l'annotation **@Injectable** et qui implémente l'interface **PipeTransform** <br/><br/>
 ![h-800](assets/images/school/09-pipes/pipes.png)
 
 ##==##
 
-# A quoi peut bien servir un Pipe côté serveur
+# A quoi peut bien servir un Pipe côté serveur ?
 
 -   Transformer une valeur <br/><br/>
 -   Faire de la validation <br/><br/>

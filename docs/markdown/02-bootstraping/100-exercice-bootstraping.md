@@ -4,11 +4,11 @@
 
 ## Lab
 
-Actuellement l'application démarre, mais aucun endpoint s'enregistre
+Actuellement l'application démarre, mais aucun endpoint ne s'enregistre
 
 -   Analysez le projet <br/><br/>
 -   Créez le bootstraping<br/><br/>
--   Vérifiez votre travail en appelant le endpoint suivant: **http://localhost:3000**
+-   Vérifiez votre travail en appelant l'endpoint suivant : **http://localhost:3000**
 
 ##==##
 
