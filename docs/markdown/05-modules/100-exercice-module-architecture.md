@@ -4,7 +4,7 @@
 
 ## Lab
 
-**L'objectif de cet exercice est de reformatter un peu l'architecture de notre serveur** <br><br>
+**L'objectif de cet exercice est de reformater un peu l'architecture de notre serveur** <br><br>
 
 -   Créez un dossier src/feature/todos
 -   Dans ce dossier, créez un module todos

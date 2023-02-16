@@ -6,7 +6,7 @@
 
 -   A l'aide du CLI (non obligatoire) créez un provider du nom de appService
 -   Enregistrez votre provider
--   Réalisez le métier des précédents endpoints dans le service
+-   Déplacez le code métier des précédents endpoints dans le service
 -   Injectez votre provider dans votre controller pour l'utiliser
 
 ##==##

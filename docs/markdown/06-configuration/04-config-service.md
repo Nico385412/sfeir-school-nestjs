@@ -1,6 +1,6 @@
 <!-- .slide: class="with-code inconsolata" -->
-# Comment récupérer sa configuration 
-Le module **ConfigModule** exporte un service ConfigService permettant de récupérer notre config<br/><br/>
+# Comment récupérer sa configuration ?
+Le module **ConfigModule** exporte un service **ConfigService** permettant de récupérer notre config<br/><br/>
 
 ```typescript
 import { ConfigService } from '@nestjs/config';
@@ -15,9 +15,9 @@ export class UserService {
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
-# Comment récupérer une propriété de sa configuration
+# Comment récupérer une propriété de sa configuration ?
 
-**ConfigService** expose une méthode get<T>('key') permettant de récupérer une propriété de sa configuration <br/><br/>
+**ConfigService** expose une méthode `get<T>('key')` permettant de récupérer une propriété dans la configuration <br/><br/>
 
 ```typescript
 this.configService.get<number>('PORT');

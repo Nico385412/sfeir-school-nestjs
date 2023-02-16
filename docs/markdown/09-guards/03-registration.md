@@ -1,6 +1,6 @@
-# Comment s’enregistre un guard
+# Comment s’enregistre un guard ?
 
--   Sur le scope du handler <br/><br/>
+-   Sur le scope de l'endpoint <br/><br/>
 -   Sur le scope du controller <br/><br/>
 -   Sur le scope global <br/><br/>
 
@@ -8,7 +8,7 @@
 
 <!-- .slide: class="with-code inconsolata" -->
 
-# Scope handler
+# Scope endpoint
 
 ```typescript
 @Post()
@@ -73,7 +73,7 @@ app.useGlobalGuards(new RolesGuard());
 
 # Scope Global
 
-**Dans un nest module** <br/><br/>
+**Dans un module Nest** <br/><br/>
 
 ```typescript
 import { Module } from "@nestjs/common";

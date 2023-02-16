@@ -1,6 +1,6 @@
-# Qu'est ce qu'un Guards
+# Qu'est ce qu'un Guard ?
 - Une sorte de **Vigile** de route <br/><br/>
-- Une classe précédée par annotation **@Injectable** implémentant l'interface **CanActivate**
+- Une classe précédée par l'annotation **@Injectable** implémentant l'interface **CanActivate**
 
 ##==##
 
@@ -10,13 +10,13 @@
     - **Promise<boolean>**<br/><br/>
     - **Observable<boolean>** <br/><br/>
     
-- Si la valeur retournée est true -> le handler est exécuté <br/><br/>
-- Si la valeur retournée est false -> le handler n'est pas exécuté
+- Si la valeur retournée est true -> l'endpoint est exécuté <br/><br/>
+- Si la valeur retournée est false -> l'endpoint n'est pas exécuté
 
 ##==##
 
 <!-- .slide: class="with-code inconsolata"-->
-# Comment s'écrit un guard
+# Comment s'écrit un guard ?
 ```typescript
 import { Injectable, CanActivate, ExecutionContext } from '@nestjs/common';
 import { Observable } from 'rxjs';
@@ -37,5 +37,5 @@ export class AuthGuard implements CanActivate {
 
 <!-- .slide: class="with-code inconsolata" -->
 # Ordre d’exécution
-1. Avant tous interceptors et pipes <br/><br/>
+1. Avant tous les interceptors et pipes <br/><br/>
 2. Après chaque middleware <br/><br/>

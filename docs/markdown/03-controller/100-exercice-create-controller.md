@@ -4,11 +4,11 @@
 
 ## Lab
 
+-   Dans le dossier shared se trouvent toutes les datas dont vous avez besoin
 -   A l'aide du CLI (non obligatoire) créez un controller
 -   Créez la route **/api/todos** renvoyant la liste de todo
 -   Créez la route **/api/todos/:id** renvoyant une todo
 -   Créez la route **/api/todos/:id** supprimant une todo
--   Dans le dossier shared se trouvent toutes les datas dont vous avez besoin
 
 ##==##
 
@@ -17,5 +17,7 @@
 # 03-controller-solution
 
 ## Soluce
+
+**Solution : 03-controller-solution**
 
 <!-- .element: class="full-center" -->

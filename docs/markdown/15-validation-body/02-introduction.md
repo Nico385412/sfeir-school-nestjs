@@ -6,11 +6,11 @@
 
 ##==##
 
-# Comment valider ces données ??
+# Comment valider ces données ?
 
-NestJs offre tout ce dont vous avez besoin pour faire de la validation plus ou moins complexe en fonction de vos besoin <br/><br/>
+NestJS offre tout ce dont vous avez besoin pour faire de la validation plus ou moins complexe en fonction de vos besoins <br/><br/>
 
--   pipe de validation <br/><br/>
+-   Pipe de validation <br/><br/>
 -   class-validator <br/><br/>
 -   class-transformer
 
@@ -18,7 +18,7 @@ NestJs offre tout ce dont vous avez besoin pour faire de la validation plus ou m
 
 <!-- .slide: class="with-code inconsolata" -->
 
-# Comment intégrer facilement le pipe de validation
+# Comment intégrer facilement le pipe de validation ?
 
 De manière globale <br/><br/>
 

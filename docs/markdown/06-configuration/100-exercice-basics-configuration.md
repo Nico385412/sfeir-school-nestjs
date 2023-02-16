@@ -4,10 +4,10 @@
 
 ## Lab
 
--   Créer un dossier **environments** à coté du dossier **src**
--   Dans ce dossier créer un fichier **local.env** avec pour contenu **PORT=3000**
--   Dans le dossier CoreModule importer votre configuration et exporter la (pensez à rendre cette configuration global)
--   Dans le fichier main.ts récupérer le service configService et setter le port à l'aide de celui-ci
+-   Créez un dossier **environments** à coté du dossier **src**
+-   Dans ce dossier créez un fichier **local.env** avec pour contenu **PORT=3000**
+-   Dans le dossier CoreModule importez votre configuration et exportez la (pensez à rendre cette configuration globale)
+-   Dans le fichier main.ts récupérez le service ConfigService et setter le port à l'aide de celui-ci
 
 ##==##
 

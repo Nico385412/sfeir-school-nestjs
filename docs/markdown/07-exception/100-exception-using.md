@@ -4,11 +4,11 @@
 
 ## Lab
 
-**Pour le moment notre serveur catch aucune erreur, pourtant si l'ID d'une todo n'existe pas il devrait** <br><br>
+**Pour le moment notre serveur ne catch aucune erreur, pourtant si l'ID d'une todo n'existe pas il devrait** <br><br>
 
 -   Modifiez le code du service afin de renvoyer une erreur si l'id d'une todo n'existe pas <br><br>
 -   Modifiez le code du controller afin de renvoyer une exception <br><br>
--   Astuce: Pensez à utiliser le build-in Exception
+-   Astuce: Pensez à utiliser une built-in Exception
 
 ##==##
 

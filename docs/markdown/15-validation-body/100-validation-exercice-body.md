@@ -3,10 +3,10 @@
 # 09-validation-body
 ## Lab
 
-Il est temps de remplacer notre pipe de validation de todo, par la validation que propose NestJs
+Il est temps de remplacer notre pipe de validation de todo, par la validation que propose NestJS
 
 - Dans le dossier feature/todos/dto, une classe a été ajoutée <br/><br/>
-- Réaliser la validation de notre précédent pipe en utilisant les annotations du package class-validators
+- Réalisez la validation de notre précédent pipe en utilisant les annotations du package class-validator
 
 ##==##
 

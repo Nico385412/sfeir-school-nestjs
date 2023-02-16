@@ -69,14 +69,15 @@ interface Credentials {
   name: string;
   password: string;
 }
+
 @Patch('user/:id')
-function updateUser(@Body() update: Credentials) {
-  return update; // { name: 'Nicolas', password: 'pwd' }
+function updateUser(@Body() credentials: Credentials) {
+  return credentials; // { name: 'Nicolas', password: 'pwd' }
 }
 
 @Patch('user/:id')
-function updateUser(@Body('password') update: string) {
-    return update; // pwd
+function updateUser(@Body('password') password: string) {
+    return password; // 'pwd'
 }
 ```
 

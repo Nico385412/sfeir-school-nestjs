@@ -1,5 +1,5 @@
 <!-- .slide: class="with-code inconsolata" -->
-# Comment créer ses propres pipes
+# Comment créer ses propres pipes ?
 ```typescript
 import { PipeTransform, Injectable, ArgumentMetadata, NotAcceptableException } from '@nestjs/common';
 
@@ -23,10 +23,10 @@ Il s'agit des metadatas de la fonction de l'argument <br/><br/>
 ##==##
 
 # Portée d'un pipe
-- paramètre <br/><br/>
-- méthode <br/><br/>
-- controller <br/><br/>
-- global <br/><br/>
+- Paramètre <br/><br/>
+- Méthode <br/><br/>
+- Controller <br/><br/>
+- Global <br/><br/>
 
 ##==##
 

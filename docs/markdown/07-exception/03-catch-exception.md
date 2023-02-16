@@ -1,4 +1,4 @@
-# Comment catcher un exception pour en modifier le body
+# Comment catcher un exception pour en modifier le body ?
 - Nest permet de catcher une exception en particulier <br/><br/>
 - ... Mais également de catcher toutes les exceptions <br/><br/>
 
@@ -21,9 +21,9 @@ export class HttpExceptionFilter implements ExceptionFilter {
 
 ##==##
 
-# Qu'est-ce que l'exception et l'host
-- l'exception -> l'exception en cours (NotFoundException, HttpException, etc) <br/><br/>
-- l'host -> ici il s'agit du contexte d'exécution de votre application (http, graphql, rpc, webSocket)<br/><br/>
+# Qu'est-ce que l'exception et l'host ?
+- L'exception -> l'exception en cours (NotFoundException, HttpException, etc) <br/><br/>
+- L'host -> ici il s'agit du contexte d'exécution de votre application (http, graphql, rpc, webSocket)<br/><br/>
     - switchToHttp() <br/><br/>
     - switchToRps()<br/><br/>
     - switchToWs()
@@ -31,7 +31,7 @@ export class HttpExceptionFilter implements ExceptionFilter {
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
-# Comment l'utiliser
+# Comment l'utiliser ?
 ```typescript
 import { ExceptionFilter, Catch, ArgumentsHost, HttpException } from '@nestjs/common';
 import { Request, Response } from 'express';
@@ -39,9 +39,9 @@ import { Request, Response } from 'express';
 @Catch()
 export class RessourceNotFoundExceptionFilter implements ExceptionFilter {
   catch(exception: HttpException, host: ArgumentHost) {
-    const context = host.switchToHttp() // Ici on choisis le context http car il s'agit d'une API rest
-    const request = context.getRequest<Request>(); // On récupère l'object requête et on le type en Request Express
-    const response = context.getResponse<Response>() // On récupère l'object réponse et on le type en Response Express
+    const context = host.switchToHttp() // Ici on choisit le contexte http car il s'agit d'une API rest
+    const request = context.getRequest<Request>(); // On récupère l'objet requête et on le type en Request Express
+    const response = context.getResponse<Response>() // On récupère l'objet réponse et on le type en Response Express
     response.status(404).json({ ...exception, path: request.url })
   }  
 }
@@ -58,7 +58,7 @@ export class RessourceNotFoundExceptionFilter implements ExceptionFilter {
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
-# Propre à une route ou à un controller
+# Propre à un controller ou à un endpoint
 
 ```typescript
 @UseFilters(new RessourceNotFoundExceptionFilter())

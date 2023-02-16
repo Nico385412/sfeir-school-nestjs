@@ -6,7 +6,7 @@
 
 L'objectif de cet exercice est de valider votre configuration. Il faut donc s'assurer que la valeur du PORT soit présente <br/><br/>
 
--   Valider votre schema de configuration
+-   Validez votre schéma de configuration
 
 ##==##
 

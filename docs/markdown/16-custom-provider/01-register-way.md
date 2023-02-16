@@ -70,7 +70,7 @@ export class TodoController {
 
 # Par Factory
 
-La factory est très utile quand on souhaite réaliser un métier plus compliqué ou quelque chose d'asynchrone
+La factory est très utile quand on souhaite réaliser du code métier plus compliqué ou quelque chose d'asynchrone
 
 <br/><br/>
 

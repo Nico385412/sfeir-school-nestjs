@@ -1,6 +1,6 @@
 <!-- .slide: class="transition-bg-sfeir-1 underline"-->
 
-# Les modules dynamique
+# Les modules dynamiques
 
 ##==##
 
@@ -8,7 +8,7 @@
 
 -   Module customisable <br/><br/>
 -   Possibilité de passer des paramètres <br/><br/>
--   très utile lors de la création de librairie
+-   Très utile lors de la création de librairie
 
 ##==##
 
