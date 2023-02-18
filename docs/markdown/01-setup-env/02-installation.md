@@ -2,7 +2,7 @@
 
 # NestJs et son CLI
 
-Pour utiliser Nest le plus facilement possible, pensez à installer son CLI
+Pour utiliser Nest le plus facilement possible, pensez à installer sa CLI
 
 ```bash
 npm install -g @nestjs/cli
