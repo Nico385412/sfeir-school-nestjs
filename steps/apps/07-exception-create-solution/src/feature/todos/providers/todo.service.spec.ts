@@ -1,20 +1,17 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { RessourceNotFoundException } from '../../../shared/exception/not-found.exception';
-import { Todo } from '../models/todo.model';
 import { TodoService } from './todo.service';
-import { TODOS_MOCKS, TODOS_MOCKS_PROVIDER } from './todos-mocks.service';
+import { TODOS_LIST } from '../constants/todos-list';
 
 describe('Todo', () => {
   let provider: TodoService;
-  let todoMocks: Array<Todo>;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
-      providers: [TodoService, TODOS_MOCKS_PROVIDER],
+      providers: [TodoService],
     }).compile();
 
     provider = module.get<TodoService>(TodoService);
-    todoMocks = module.get<Array<Todo>>(TODOS_MOCKS);
   });
 
   it('should be defined', () => {
@@ -23,11 +20,11 @@ describe('Todo', () => {
 
   it('should return the list of todos', () => {
     const todos = provider.getAllTodos();
-    expect(todos).toEqual(todoMocks);
+    expect(todos).toEqual(TODOS_LIST);
   });
 
   it('should return the todos with the id 1', () => {
-    const todo = todoMocks.find(({ id }) => id === 1);
+    const todo = TODOS_LIST.find(({ id }) => id === 1);
     expect(provider.getTodo(1)).toEqual(todo);
   });
 
@@ -36,9 +33,9 @@ describe('Todo', () => {
   });
 
   it('should delete a todo with the id 1', () => {
-    const initialLengthTodos: number = todoMocks.length;
+    const initialLengthTodos: number = TODOS_LIST.length;
     provider.deleteTodo(1);
-    expect(todoMocks.length).toEqual(initialLengthTodos - 1);
+    expect(TODOS_LIST.length).toEqual(initialLengthTodos - 1);
   });
 
   it('should return an error if id is not exist', () => {

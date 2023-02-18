@@ -2,7 +2,6 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { RessourceNotFoundException } from '../../shared/exception/not-found.exception';
 import { TODOS_LIST } from './constants/todos-list';
 import { TodoService } from './providers/todo.service';
-import { TODOS_MOCKS_PROVIDER } from './providers/todos-mocks.service';
 import { TodoController } from './todo.controller';
 
 describe('TodoController', () => {
@@ -11,7 +10,7 @@ describe('TodoController', () => {
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [TodoController],
-      providers: [TodoService, TODOS_MOCKS_PROVIDER],
+      providers: [TodoService],
     }).compile();
 
     controller = module.get<TodoController>(TodoController);

@@ -18,6 +18,7 @@ export class TodoService {
 
   deleteTodo(idTodo: number): void {
     const indexTodo: number = TODOS_LIST.findIndex(({ id }) => id === idTodo);
+    if (indexTodo === -1) throw new NotFoundException();
     TODOS_LIST.splice(indexTodo, 1);
   }
 }
