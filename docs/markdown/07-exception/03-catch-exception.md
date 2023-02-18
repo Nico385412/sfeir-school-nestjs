@@ -50,7 +50,7 @@ export class RessourceNotFoundExceptionFilter implements ExceptionFilter {
 
 ##==##
 
-# Comment enregistrer notre HttpException filter
+# Comment enregistrer notre HttpException filter ?
 
 - Propre à une route ou à un Controller <br/><br/>
 - De manière globale
