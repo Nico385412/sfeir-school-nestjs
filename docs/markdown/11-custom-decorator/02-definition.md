@@ -39,7 +39,7 @@ export const User = createParamDecorator(
 **Grâce à l'annotation @** <br/><br/>
 
 ```typescript
-getTodo(@Cookie('userToken') token: string) { }
+getTodo(@User() user: UserEntity) { }
 ```
 
 <!-- .element: class="big-code" -->
