@@ -20,3 +20,14 @@ Un pipe est une classe précédée de l'annotation **@Injectable** et qui implé
 -   **ParseArrayPipe** : pipe pour parser en tableau <br/><br/>
 -   **ParseUUIDPipe** : pipe pour parser un UUID <br/><br/>
 -   **DefaultValuePipe** : pipe permettant de donner une valeur par défaut<br/><br/>
+
+##==##
+
+<!-- .slide: class="with-code inconsolata" -->
+# Comment utiliser un Pipe ?
+
+```typescript
+@Get(':id')
+getTodo(@Param('id', ParseUUIDPipe) id: UUID) : Todo { }
+```
+<!-- .element: class="big-code" -->
