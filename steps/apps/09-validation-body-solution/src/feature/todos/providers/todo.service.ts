@@ -1,35 +1,31 @@
-import { Inject, Injectable } from '@nestjs/common';
-import { RessourceNotFoundException } from '../../../shared/exception/not-found.exception';
-import { TodoDto } from '../dto/todo.dto';
+import { Injectable } from '@nestjs/common';
+import { TODOS_LIST } from '../constants/todos-list';
 import { Todo } from '../models/todo.model';
-import { TODOS_MOCKS } from './todos-mocks.service';
+import { RessourceNotFoundException } from '../../../shared/exception/not-found.exception';
 
 @Injectable()
 export class TodoService {
-  constructor(@Inject(TODOS_MOCKS) private readonly todoList: Array<Todo>) {
-  }
-
   getAllTodos(): Array<Todo> {
-    return this.todoList;
+    return TODOS_LIST;
   }
 
-  createTodo(todo: TodoDto): number {
-    const idTodo = this.todoList.length + 1;
-    this.todoList.push({ ...todo, id: idTodo });
+  createTodo(todo: Omit<Todo, 'id'>): number {
+    const idTodo = TODOS_LIST.length + 1;
+    TODOS_LIST.push({ ...todo, id: idTodo });
     return idTodo;
   }
 
-  getTodo(idTodo: number): Todo | Error {
-    const todo: Todo = this.todoList.find(({ id }) => id === idTodo);
-    if (todo) {
-      return todo;
+  getTodo(idTodo: number): Todo {
+    const todo = TODOS_LIST.find(({ id }) => id === idTodo);
+    if (!todo) {
+      throw new RessourceNotFoundException(idTodo);
     }
-    throw new RessourceNotFoundException(idTodo);
+    return todo;
   }
 
-  deleteTodo(idTodo: number): void | Error {
-    const indexTodo: number = this.todoList.findIndex(({ id }) => id === idTodo);
+  deleteTodo(idTodo: number): void {
+    const indexTodo: number = TODOS_LIST.findIndex(({ id }) => id === idTodo);
     if (indexTodo === -1) throw new RessourceNotFoundException(idTodo);
-    this.todoList.splice(indexTodo, 1);
+    TODOS_LIST.splice(indexTodo, 1);
   }
 }
