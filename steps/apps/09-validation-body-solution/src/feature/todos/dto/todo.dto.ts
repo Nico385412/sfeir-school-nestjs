@@ -1,7 +1,7 @@
-import { Equals, IsString } from 'class-validator';
+import { Equals, IsIn, IsString } from 'class-validator';
 
 export class TodoDto {
-  @Equals(1 | 2)
+  @IsIn([1, 2])
   userId: 1 | 2;
 
   @IsString()
