@@ -90,13 +90,13 @@
         "tsConfigPath": "apps/05-module-architecture/tsconfig.app.json"
       }
     },
-    "06-module-architecture-solution": {
+    "05-module-architecture-solution": {
       "type": "application",
-      "root": "apps/06-module-architecture-solution",
+      "root": "apps/05-module-architecture-solution",
       "entryFile": "main",
-      "sourceRoot": "apps/06-module-architecture-solution/src",
+      "sourceRoot": "apps/05-module-architecture-solution/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/06-module-architecture-solution/tsconfig.app.json"
+        "tsConfigPath": "apps/05-module-architecture-solution/tsconfig.app.json"
       }
     },
     "07-middleware": {
