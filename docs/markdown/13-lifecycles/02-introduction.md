@@ -8,12 +8,6 @@ NestJs possède des évènements de lifecycle que l'on peut classer en trois cat
 
 ##==##
 
-# Un beau schéma est toujours plus parlant
-
-![full-center](assets/images/school/13-lifecyles/lifecycle-events.png)
-
-##==##
-
 # Les 5 lifecycles
 
 -   **onModuleInit()** appelé quand les dépendances du modules sont résolues <br/><br/>
