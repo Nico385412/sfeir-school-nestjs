@@ -3,8 +3,7 @@
 ## Lab
 **C'est un peu contraignant de devoir caster en integer l'id de la todo**<br/><br/>
 
-- A l'aide du built-in ParseIntPipe, parsez le param id en integer sur la route GET<br/><br/>
-- A l'aide du built-in ParseIntPipe, parsez le param id en integer sur la route DELETE<br/><br/>
+- A l'aide du built-in ParseIntPipe, parsez le param id en integer sur la route GET et sur la route DELETE<br/><br/>
 
 ##==##
 

@@ -1,4 +1,4 @@
-import { Controller, Delete, Get, HttpCode, NotFoundException, Param } from '@nestjs/common';
+import { Controller, Delete, Get, HttpCode, Param } from '@nestjs/common';
 import { Todo } from './models/todo.model';
 import { TodoService } from './providers/todo.service';
 
@@ -14,22 +14,14 @@ export class TodoController {
 
   @Get(':id')
   @HttpCode(200)
-  getTodo(@Param('id') idTodo: string): Todo | NotFoundException {
-    try {
-      return this.todoService.getTodo(+idTodo) as Todo;
-    } catch (error: any) {
-      throw error;
-    }
+  getTodo(@Param('id') idTodo: string): Todo {
+    return this.todoService.getTodo(+idTodo);
   }
 
   @Delete(':id')
   @HttpCode(200)
-  removeTodo(@Param('id') idTodo: string): void | NotFoundException {
-    try {
-      this.todoService.deleteTodo(+idTodo);
-      return;
-    } catch (error) {
-      throw error;
-    }
+  removeTodo(@Param('id') idTodo: string): void {
+    this.todoService.deleteTodo(+idTodo);
+    return;
   }
 }

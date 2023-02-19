@@ -36,7 +36,7 @@ export class HttpExceptionFilter implements ExceptionFilter {
 import { ExceptionFilter, Catch, ArgumentsHost, HttpException } from '@nestjs/common';
 import { Request, Response } from 'express';
 
-@Catch()
+@Catch(RessourceNotFoundException)
 export class RessourceNotFoundExceptionFilter implements ExceptionFilter {
   catch(exception: HttpException, host: ArgumentHost) {
     const context = host.switchToHttp() // Ici on choisit le contexte http car il s'agit d'une API rest
@@ -50,7 +50,7 @@ export class RessourceNotFoundExceptionFilter implements ExceptionFilter {
 
 ##==##
 
-# Comment enregistrer notre HttpException filter
+# Comment enregistrer notre HttpException filter ?
 
 - Propre à une route ou à un Controller <br/><br/>
 - De manière globale

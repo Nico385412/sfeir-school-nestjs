@@ -1,26 +1,23 @@
-import { Inject, Injectable, NotFoundException } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
+import { TODOS_LIST } from '../constants/todos-list';
 import { Todo } from '../models/todo.model';
-import { TODOS_MOCKS } from './todos-mocks.service';
 
 @Injectable()
 export class TodoService {
-  constructor(@Inject(TODOS_MOCKS) private readonly todoList: Array<Todo>) {}
-
   getAllTodos(): Array<Todo> {
-    return this.todoList;
+    return TODOS_LIST;
   }
 
-  getTodo(idTodo: number): Todo | Error {
-    const todo: Todo = this.todoList.find(({ id }) => id === idTodo);
-    if (todo) {
-      return todo;
+  getTodo(idTodo: number): Todo {
+    const todo = TODOS_LIST.find(({ id }) => id === idTodo);
+    if (!todo) {
+      throw new NotFoundException();
     }
-    throw new NotFoundException();
+    return todo;
   }
 
-  deleteTodo(idTodo: number): void | Error {
-    const indexTodo: number = this.todoList.findIndex(({ id }) => id === idTodo);
-    if (indexTodo === -1) throw new NotFoundException();
-    this.todoList.splice(indexTodo, 1);
+  deleteTodo(idTodo: number): void {
+    const indexTodo: number = TODOS_LIST.findIndex(({ id }) => id === idTodo);
+    TODOS_LIST.splice(indexTodo, 1);
   }
 }
