@@ -392,6 +392,24 @@
           }
         ]
       }
+    },
+    "17-testing": {
+      "type": "application",
+      "root": "apps/17-testing",
+      "entryFile": "main",
+      "sourceRoot": "apps/17-testing/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/17-testing/tsconfig.app.json"
+      }
+    },
+    "17-testing-solution": {
+      "type": "application",
+      "root": "apps/17-testing-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/17-testing-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/17-testing-solution/tsconfig.app.json"
+      }
     }
   }
 }

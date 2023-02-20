@@ -141,6 +141,7 @@ function testingSlides() {
     "99-testing/01-setup.md",
     "99-testing/02-unit-testing.md",
     "99-testing/03-e2e-testing.md",
+    "99-testing/100-e2e-testing.md",
   ];
 }
 
