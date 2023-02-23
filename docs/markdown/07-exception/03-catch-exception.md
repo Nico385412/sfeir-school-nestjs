@@ -25,7 +25,7 @@ export class HttpExceptionFilter implements ExceptionFilter {
 - L'exception -> l'exception en cours (NotFoundException, HttpException, etc) <br/><br/>
 - L'host -> ici il s'agit du contexte d'exécution de votre application (http, graphql, rpc, webSocket)<br/><br/>
     - switchToHttp() <br/><br/>
-    - switchToRps()<br/><br/>
+    - switchToRpc()<br/><br/>
     - switchToWs()
 
 ##==##
@@ -70,7 +70,7 @@ export class RessourceNotFoundExceptionFilter implements ExceptionFilter {
 
 ```typescript
 @Post()
-@UseFilters(new RessourceNotFoundExceptionFilter())
+@UseFilters(RessourceNotFoundExceptionFilter)
 getTodos() {}
 ```
 <!--.element: class="big-code" -->
@@ -83,7 +83,7 @@ getTodos() {}
 ```typescript
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  app.useGlobalFilters(new RessourceNotFoundException());
+  app.useGlobalFilters(new RessourceNotFoundExceptionFilter());
   await app.listen(3000);
 }
 bootstrap();
@@ -106,7 +106,7 @@ import { APP_FILTER } from '@nestjs/core';
   providers: [
     {
       provide: APP_FILTER,
-      useClass: RessourceNotFoundException,
+      useClass: RessourceNotFoundExceptionFilter,
     },
   ],
 })

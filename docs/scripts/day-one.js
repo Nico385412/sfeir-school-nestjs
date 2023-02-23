@@ -18,7 +18,6 @@ function bootstrapingSlide() {
   return [
     "02-bootstraping/01-transition.md",
     "02-bootstraping/02-bootstrapping.md",
-    "02-bootstraping/03-under-hood.md",
     "02-bootstraping/100-exercice-bootstraping.md",
   ];
 }
@@ -160,10 +159,19 @@ function lifecycleSlides() {
   return ["13-lifecycles/01-transition.md", "13-lifecycles/02-introduction.md"];
 }
 
+function nestIntroductionSlides() {
+  return [
+    "98-nest-introduction/01-transition.md",
+    "98-nest-introduction/02-tell-me-why.md",
+    "98-nest-introduction/03-under-hood.md",
+  ]
+}
+
 export function dayOneSlides() {
   return [
     ...introductionSlides(),
     ...speakerSlides(),
+    ...nestIntroductionSlides(),
     ...setupSlides(),
     ...bootstrapingSlide(), // LAB
     ...controllerSlide(), // LAB

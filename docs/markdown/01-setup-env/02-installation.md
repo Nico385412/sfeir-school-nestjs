@@ -25,7 +25,7 @@ Il est conseillé d'utiliser le CLI de Nest pour bootstraper un projet, cependan
 
 # Dépendances nécessaires aux TPS
 
-Déplacez vous dans le dossier steps et tapez la commande suivante:
+Déplacez vous dans le dossier **steps** et tapez la commande suivante:
 
 ```bash
 npm install

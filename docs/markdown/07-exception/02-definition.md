@@ -1,6 +1,6 @@
 # Qu'est ce qu'une exception dans NestJS ?
 
-**Une exception est un filtre qui permet d'envoyer une réponse 'User Friendly' en cas d'erreur**
+**Une exception permet d'envoyer une réponse 'User Friendly' en cas d'erreur**
 
 <!-- .element: class="full-center" -->
 
@@ -29,7 +29,7 @@
 ```typescript
 export class TodoNotFoundException extends HttpException {
     constructor(id: string) {
-        super(`Todo with id ${id} does not exist`, 404);
+        super(`Todo with id ${id} does not exist`, HttpStatus.NOT_FOUND);
     }
 }
 ```

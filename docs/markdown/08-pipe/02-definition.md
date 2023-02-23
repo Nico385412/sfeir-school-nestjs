@@ -1,14 +1,20 @@
-# Qu'est ce qu'un Pipe ?
-
-Un pipe est une classe précédée de l'annotation **@Injectable** et qui implémente l'interface **PipeTransform** <br/><br/>
-![h-800](assets/images/school/09-pipes/pipes.png)
-
-##==##
-
 # A quoi peut bien servir un Pipe côté serveur ?
 
 -   Transformer une valeur <br/><br/>
 -   Faire de la validation <br/><br/>
+
+##==##
+
+<!-- .slide: class="with-code inconsolata" -->
+# Qu'est ce qu'un Pipe ?
+
+Un pipe est une classe précédée de l'annotation **@Injectable** et qui implémente l'interface **PipeTransform** <br/><br/>
+
+```typescript
+@Get(':id')
+getTodo(@Param('id', ParseUUIDPipe) id: UUID) : Todo { }
+```
+<!-- .element: class="big-code" -->
 
 ##==##
 
@@ -22,12 +28,3 @@ Un pipe est une classe précédée de l'annotation **@Injectable** et qui implé
 -   **DefaultValuePipe** : pipe permettant de donner une valeur par défaut<br/><br/>
 
 ##==##
-
-<!-- .slide: class="with-code inconsolata" -->
-# Comment utiliser un Pipe ?
-
-```typescript
-@Get(':id')
-getTodo(@Param('id', ParseUUIDPipe) id: UUID) : Todo { }
-```
-<!-- .element: class="big-code" -->

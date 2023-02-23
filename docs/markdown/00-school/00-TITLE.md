@@ -12,6 +12,4 @@
 
 <br/><br/>
 
-**Feuille de présence (obligatoire)**
-
 <!-- .element: class="center" -->

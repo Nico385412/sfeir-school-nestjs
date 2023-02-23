@@ -5,7 +5,6 @@
 ## Lab
 
 -   Dans le dossier shared se trouvent toutes les datas dont vous avez besoin
--   A l'aide du CLI (non obligatoire) créez un controller
 -   Créez la route **/api/todos** renvoyant la liste de todo
 -   Créez la route **/api/todos/:id** renvoyant une todo
 -   Créez la route **/api/todos/:id** supprimant une todo

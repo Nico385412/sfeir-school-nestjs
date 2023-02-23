@@ -54,4 +54,4 @@ npm start -- _nom_dossier_dans_apps__
 
 ## Disponibilité des slides
 
-Les slides sont disponible via l'url [suivante](https://sfeir-open-source.github.io/sfeir-school-nestjs/)
+Les slides sont disponible via l'url [suivante](https://nico385412.github.io/sfeir-school-nestjs/)

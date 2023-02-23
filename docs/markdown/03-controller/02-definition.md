@@ -38,7 +38,7 @@ Un **Controller** doit être enregistré dans le tableau de `controllers` d'un m
 
 ```typescript
 @Module({
-    controllers: [AppController],
+    controllers: [StudentController],
 })
 export class AppModule {}
 ```
